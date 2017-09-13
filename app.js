@@ -32,7 +32,7 @@ app.use(express.static(__dirname + '/public'));
 
 // get the app environment from Cloud Foundry
 let appEnv = cfenv.getAppEnv(require('./config'));
-database.init(appEnv, 'cloudant-resume-fdc');
+database.init(appEnv, 'Cloudant Udemy Course DB');
 
 // set up handlebars view plugin (hbs)
 hbs.registerPartials(__dirname + '/views/partials', () => {
