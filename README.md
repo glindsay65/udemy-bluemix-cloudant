@@ -1,4 +1,4 @@
-# Handlebars Resume
+# Cloudant Resume
 This is the source code for the tutorial application associated with the "IBM Bluemix Application Development" [course on Udemy]().
 
 This is the third version of the resume application. It is based on the second, handlebars, version, but integrates with Cloudant for data. 
